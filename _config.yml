@@ -1,0 +1,4 @@
+title: My Jekyll Site
+description: A simple Jekyll site
+baseurl: "" # the base hostname & protocol for your site
+url: "" # the base URL for your site
