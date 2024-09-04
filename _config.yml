@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal.
 title: My Jekyll Site
 description: Welcome to my Jekyll site.
 baseurl: "" # the base hostname & path for your site
