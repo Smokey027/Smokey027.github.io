@@ -8,7 +8,8 @@ title: Smokey027's Personal Site
 description: Welcome to my personal webpage, showcasing my projects and interests.
 
 # Base URL
-baseurl: "" # Use this if your site is hosted at the root of your domain. Leave empty if using GitHub Pages with a custom domain.
+baseurl: "" # Use this if your site is hosted at the root of your domain.
 
 # Site URL
-url: "github.com/Smokey027" # The base URL of your site. Replace with your actual site URL if different.
+url: "https://smokey027.github.io" # Replace with your actual site URL.
+
