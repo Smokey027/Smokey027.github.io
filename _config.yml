@@ -12,8 +12,12 @@ baseurl: "" # Use this if your site is hosted at the root of your domain.
 
 # Site URL
 <<<<<<< HEAD
+<<<<<<< HEAD
 url: "https:github.com/Smokey027" # The base URL of your site. Replace with your actual site URL if different.
 =======
 url: "https://smokey027.github.io" # Replace with your actual site URL.
+=======
+url: "https:github.com/Smokey027" # Replace with your actual site URL.
+>>>>>>> db3bc0f27bc2e1825f1574f334d454546a868650
 
 >>>>>>> cea5ff2a56b64bb85e8c6494157053c1f2deed9e
