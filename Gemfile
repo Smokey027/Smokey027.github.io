@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.3"  # Uncomment this line
 
 # Use the Agency theme
-gem "jekyll-agency"
+# gem "jekyll-agency"
 
 # If you want to use GitHub Pages, comment out the jekyll gem above.
 # gem "github-pages", group: :jekyll_plugins
