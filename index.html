@@ -28,8 +28,20 @@
         }
         header {
             padding: 20px;
-            background-color: #d3d3d3;
             text-align: center;
+            background-image: url('https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/493440/LWcvBTvZuDSUHbIT.png?Expires=1729551814&Signature=LNjvCyvh7RKWQtc6TTI7YMztxCqrDmRlwPqZLsnXO868cY-9PC57lMuhGMx6FVlNzUCypqe32pT40x11wOMSNZFbyVTtLSNBM4lHH3uQwQ3NPnn3DiW0kj7aRfTMrQtKngqzsVFjFMJxQRNVwVdjY9dSBs-iwQhucenCtT8NutY4qDvT2LOZ6i0J0IX6dpd9Obtm0kISe~hQycSA6Bw2Vrs-xu0VvfWduQRym0k3o1Y3P5KCmwWc4HHMcP3jWbKX3LOy0zzAP75kRY6KOKyEAC8f8bU026ORiZcc24Gd72cFusGH39DSTF70UontFD5Jgy22ldAn04enBf4Z640cOg__&Key-Pair-Id=K3USGZIKWMDCSX');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            font-family: 'Copperplate Gothic Bold', sans-serif;
+        }
+        header h1 {
+            font-size: 28px;
+            margin: 5px 0;
+        }
+        header p {
+            font-size: 24px;
+            margin: 5px 0;
         }
         nav {
             background-color: #333;
@@ -73,13 +85,6 @@
         th {
             background-color: rgba(255, 255, 255, 0.8);
         }
-        .badge-container {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .badge-container a {
-            margin: 0 5px;
-        }
         .github-button {
             display: inline-block;
             margin-top: 10px;
@@ -107,15 +112,8 @@
 <body>
     <header>
         <h1>Scot C. Batton</h1>
-        <div class="badge-container">
-            <a href="mailto:asantiago@arsari.com" title="I can help you!">
-                <img src="https://img.shields.io/badge/Ask_me!-anything-orange.svg?style=for-the-badge&logo=gmail" alt="Ask Me Anything">
-            </a>
-            <a href="https://www.arsari.us/blog" title="Posts about coding" target="_blank">
-                <img src="https://img.shields.io/badge/Blog-arsari.us-lightblue.svg?style=for-the-badge&logo=blogger" alt="Blog">
-            </a>
-            <img src="https://img.shields.io/github/last-commit/arsari/ePortfolio?style=for-the-badge&logo=github" alt="GitHub Last Commit">
-        </div>
+        <p>ePortfolio</p>
+        <p>CS-499 Computer Science Capstone</p>
         <a href="https://github.com/Smokey027/Smokey027.github.io" class="github-button" target="_blank" rel="noopener noreferrer">View Project on GitHub</a>
     </header>
     <nav>
@@ -127,7 +125,8 @@
         <a href="#softwaredesign">Software Design</a>
         <a href="#algorithms">Algorithms</a>
         <a href="#databases">Databases</a>
-         </nav>
+        <a href="#reviews">Reviews</a>
+    </nav>
     <main>
         <section id="welcome">
             <h2>Welcome</h2>
@@ -222,6 +221,13 @@
             <img class="img-center" src="assets/img/CS340-Image.jpg" alt="Web App Client/Database Screenshot" title="Web App Client/Database Screenshot">
             <p><em>Figure 6 - Salvare Search Web App Client/Database Dashboard Screenshot</em></p>
         </section>
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <blockquote cite="https://learn.snhu.edu/d2l/lms/grades/my_grades/main.d2l?ou=1014915">
+                <img src="assets/img/brookegoggin.jpg" alt="Brooke Goggin" style="width: 90px; float: left; margin-right: 10px;">
+                <p><span>Brooke Goggin, M.S., M.S., M.S., Ed.D(ABD)<br/>SNHU Computer Science Adjunct Faculty</span></p>
+                <em>"Being able to present your work in a cohesive manner is a skill that you will continue to refine in your career. The Zoo Monitoring with security and efficiency enhancements and interface as well as your extensive narratives is great work. This is a sound demonstration of making code more concise and therefore with this change a bit faster. Wonderful explanation of what you did with the application to integrate Python with the Dash framework. Code is clean and well commented! You made it. Congratulations and you should be proud. The hard skills and soft skills table is great. Very well done portfolio with clear content of your depth of understanding!"</em>
+            </blockquote>
         </section>
     </main>
     <footer>
