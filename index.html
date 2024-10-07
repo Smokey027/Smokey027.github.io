@@ -14,7 +14,7 @@
     <meta name="description" content="Personal webpage of Scot, showcasing top programming languages and projects.">
     
     <!-- Title -->
-    <title>Smokey027.github.io</title>
+    <title>Scot C. Batton's ePortfolio</title>
 
     <!-- Styles -->
     <style>
@@ -23,27 +23,47 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            height: 100vh;
             background-color: #f0f0f0;
             color: #333;
         }
         header {
             padding: 20px;
             background-color: #d3d3d3;
-            color: #333;
             text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
         }
         footer {
             padding: 20px;
             background-color: #888;
             color: #fff;
+            text-align: center;
         }
-        details {
-            margin-top: 20px;
+        section {
+            margin-bottom: 40px;
+        }
+        h2, h3 {
+            color: #4169e1;
         }
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-bottom: 20px;
         }
         th, td {
             border: 1px solid #ddd;
@@ -53,12 +73,6 @@
         th {
             background-color: rgba(255, 255, 255, 0.8);
         }
-        picture img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
         .badge-container {
             text-align: center;
             margin-bottom: 20px;
@@ -66,167 +80,152 @@
         .badge-container a {
             margin: 0 5px;
         }
+        blockquote {
+            font-size: 18px;
+            color: #555;
+            border-left: 5px solid #ccc;
+            margin: 20px 0;
+            padding-left: 15px;
+        }
+        .img-center {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Scot C. Batton</h1>
-        <h2>
-            <a href="https://github.com/Smokey027" target="_blank" rel="noopener noreferrer">My Repository</a>
-        </h2>
-        <h3>
-            <a href="https://github.com/Smokey027/Smokey027.github.io" target="_blank" rel="noopener noreferrer">Event Tracking App</a>
-        </h3>
-        <h4>
-            <a href="https://youtu.be/6eo0bEmdYWc?si=rBaiCL5qPN7QXaqU" target="_blank" rel="noopener noreferrer">Event Tracking App Code Review</a>
-        </h4>
-    </header>
-    <main>
         <div class="badge-container">
-            <a href="saturdaynight135@gmail.com" title="I can help you!">
+            <a href="mailto:asantiago@arsari.com" title="I can help you!">
                 <img src="https://img.shields.io/badge/Ask_me!-anything-orange.svg?style=for-the-badge&logo=gmail" alt="Ask Me Anything">
+            </a>
+            <a href="https://www.arsari.us/blog" title="Posts about coding" target="_blank">
+                <img src="https://img.shields.io/badge/Blog-arsari.us-lightblue.svg?style=for-the-badge&logo=blogger" alt="Blog">
             </a>
             <img src="https://img.shields.io/github/last-commit/arsari/ePortfolio?style=for-the-badge&logo=github" alt="GitHub Last Commit">
         </div>
-
-        <h2>Welcome</h2>
-        <p>This ePortfolio integrates the knowledge and skills I gained and developed throughout the years of studying a Computer Science program at Southern New Hampshire University (SNHU). It represents my growth in the program and gained honor rolls from high-quality outcomes. The ePortfolio was designed and developed with a professional-quality written and a visual communication demonstrative of my capacities and abilities in a coherent, technically sound, and appropriately adapted to a specific technical audience and context.</p>
-
-        <h3>Table of Content</h3>
-        <ul>
-            <li><a href="#self-assessment">Professional Self-Assessment</a></li>
-            <li><a href="#portfolio-considerations">Portfolio Considerations</a></li>
-            <li><a href="#preparing-for-the-future">Preparing For The Future</a></li>
-            <li><a href="#codereview">Refinement Plan and Code Review</a></li>
-            <li><a href="#softwaredesign">Software Design and Engineering</a></li>
-            <li><a href="#algorithms">Algorithms and Data Structure</a></li>
-            <li><a href="#databases">Databases</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-        </ul>
-
-        <h2 id="self-assessment">Professional Self-Assessment</h2>
-        <p>I started in the Computer Science program in January of 2018, studying for as long as five years. I plan to join the program to improve my background in the programming and development of applications and web services. This effort was because of my passion for working with computers and technology, performing web development, and have led some IT projects and implementing IT infrastructures during my years of practicing Architecture.</p>
-
-        <p>While in the Computer Science Program, I have learned and improved an innumerable number of abilities, skills, and knowledge. I have improved my attention to detail and security mindset as crucial skills to perform as a software engineer and developer. Being organized and cautious in my code development and doing it in simple blocks and testing as part of my workflow helps me improve these skills and abilities. Testing is crucial to ensuring a program works and is free of weaknesses and vulnerabilities and becomes more complicated as a project grows in complexity. Acknowledging and adopting a tester mindset and a security mindset are well-required skills and abilities that improve continuously.</p>
-
-        <div style="text-align: center;">
-            <a href="https://github.com/arsari/OpenGL-ZigZag" target="_blank">
-                <img src="assets/img/CS330-Screenshot.png" width="720px" title="OpenGL ZigZag Chair Screenshot" />
-            </a>
+    </header>
+    <nav>
+        <a href="#welcome">Welcome</a>
+        <a href="#self-assessment">Professional Self-Assessment</a>
+        <a href="#portfolio-considerations">Portfolio Considerations</a>
+        <a href="#preparing-for-the-future">Preparing For The Future</a>
+        <a href="#codereview">Code Review</a>
+        <a href="#softwaredesign">Software Design</a>
+        <a href="#algorithms">Algorithms</a>
+        <a href="#databases">Databases</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+    <main>
+        <section id="welcome">
+            <h2>Welcome</h2>
+            <p>This ePortfolio integrates the knowledge and skills I gained and developed throughout the years of studying a Computer Science program at Southern New Hampshire University (SNHU). It represents my growth in the program and gained honor rolls from high-quality outcomes. The ePortfolio was designed and developed with a professional-quality written and a visual communication demonstrative of my capacities and abilities in a coherent, technically sound, and appropriately adapted to a specific technical audience and context.</p>
+        </section>
+        <section id="self-assessment">
+            <h2>Professional Self-Assessment</h2>
+            <p>I started in the Computer Science program in January of 2018, studying for as long as five years. I plan to join the program to improve my background in the programming and development of applications and web services. This effort was because of my passion for working with computers and technology, performing web development, and have led some IT projects and implementing IT infrastructures during my years of practicing Architecture.</p>
+            <img class="img-center" src="assets/img/CS330-Screenshot.png" alt="OpenGL ZigZag Chair Screenshot" title="OpenGL ZigZag Chair Screenshot">
             <p><em>Figure 1 - OpenGL ZigZag Chair - CS330 Computational Graphics and Visualization</em></p>
-        </div>
-
-        <p>Attention to detail relates to code reviews, security standards, and best practices. Thinking with security in mind and not leaving it to the end is a way to gain a zero-trust ethic and approach that improves my coding skills. By combining code reviews and a security mindset, I can analyze my code and peer's code and look for mistakes and vulnerabilities that I may have missed during my focus on code development. Applying best practices and standards helps me produce formatted, understood, and maintainable software code and systems. In the same way, asking for help from peers to look at and review my work is another way to improve my abilities and skills in attention to detail and communication. Looking at my work with a fresh set of eyes helps me quickly discover overlooked mistakes.</p>
-
-        <p>I learn the importance of the Software Development Lifecycle and how to apply project management strategies working on a large-scale project as part of a team or as an individual. Many logistics go into planning a large project and coordinating with peers and team members. Understanding clients' needs as part of SDLC help to translate those needs into algorithms and pseudocode that result in a program. That incredible knowledge brings gratefulness and satisfaction when putting them into practice. All of the above soft skills and others like creativity, communication, and time management have been improved and increased during my years of study and professional work.</p>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Hard Skills</th>
-                    <th>Soft Skills</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Computer and Technology Skills</td>
-                    <td>Organizational</td>
-                </tr>
-                <tr>
-                    <td>Data Analysis</td>
-                    <td>Attention to Detail</td>
-                </tr>
-                <tr>
-                    <td>Data Visualization</td>
-                    <td>Critical Thinking</td>
-                </tr>
-                <tr>
-                    <td>Programming</td>
-                    <td>Problem Solving</td>
-                </tr>
-                <tr>
-                    <td>Software Development</td>
-                    <td>Collaboration</td>
-                </tr>
-                <tr>
-                    <td>Web Development</td>
-                    <td>HTML/CSS/JS/Markdown</td>
-                </tr>
-                <tr>
-                    <td>Technical Writing</td>
-                    <td>JAVA</td>
-                </tr>
-                <tr>
-                    <td>Security Mindset</td>
-                    <td>Python</td>
-                </tr>
-                <tr>
-                    <td>Mobile Development</td>
-                    <td>C++</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <h2 id="portfolio-considerations">Portfolio Considerations</h2>
-        <blockquote style="font-size: 20px;">
-            <em>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</em>
-            <p style="text-align: right;">by Martin Fowler</p>
-        </blockquote>
-
-        <p>Each of the courses throughout the Computer Science program has impacted and helped to acquire the knowledge, skills, and abilities necessary to position me in a job in the disciplines attached to Computer Science. While my learning was not limited to these classes, I felt that these were of more impact to me and expanded my roots into my initial plan of entering the Computer Science Program. From these courses, I learned and improved things I was not aware of being knowledgeable about or having the ability to grow in them. Because of that, I incorporate artifacts where the skills and skills learned in these courses, are demonstrated, showcased, and illustrated.</p>
-
-        <div style="text-align: center;">
-            <img src="assets/img/CS350-Task-Scheduler-Diagram.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
+            <p>While in the Computer Science Program, I have learned and improved an innumerable number of abilities, skills, and knowledge. I have improved my attention to detail and security mindset as crucial skills to perform as a software engineer and developer. Being organized and cautious in my code development and doing it in simple blocks and testing as part of my workflow helps me improve these skills and abilities. Testing is crucial to ensuring a program works and is free of weaknesses and vulnerabilities and becomes more complicated as a project grows in complexity. Acknowledging and adopting a tester mindset and a security mindset are well-required skills and abilities that improve continuously.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hard Skills</th>
+                        <th>Soft Skills</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Computer and Technology Skills</td>
+                        <td>Organizational</td>
+                    </tr>
+                    <tr>
+                        <td>Data Analysis</td>
+                        <td>Attention to Detail</td>
+                    </tr>
+                    <tr>
+                        <td>Data Visualization</td>
+                        <td>Critical Thinking</td>
+                    </tr>
+                    <tr>
+                        <td>Programming</td>
+                        <td>Problem Solving</td>
+                    </tr>
+                    <tr>
+                        <td>Software Development</td>
+                        <td>Collaboration</td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>HTML/CSS/JS/Markdown</td>
+                    </tr>
+                    <tr>
+                        <td>Technical Writing</td>
+                        <td>JAVA</td>
+                    </tr>
+                    <tr>
+                        <td>Security Mindset</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Development</td>
+                        <td>C++</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="portfolio-considerations">
+            <h2>Portfolio Considerations</h2>
+            <blockquote>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” <br><span style="float:right;">- Martin Fowler</span></blockquote>
+            <p>Each of the courses throughout the Computer Science program has impacted and helped to acquire the knowledge, skills, and abilities necessary to position me in a job in the disciplines attached to Computer Science. While my learning was not limited to these classes, I felt that these were of more impact to me and expanded my roots into my initial plan of entering the Computer Science Program. From these courses, I learned and improved things I was not aware of being knowledgeable about or having the ability to grow in them. Because of that, I incorporate artifacts where the skills and skills learned in these courses, are demonstrated, showcased, and illustrated.</p>
+            <img class="img-center" src="assets/img/CS350-Task-Scheduler-Diagram.png" alt="Task Scheduler Diagram" title="Task Scheduler Diagram">
             <p><em>Figure 2 - Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</em></p>
-        </div>
-
-        <p>CS250 Software Development Lifecycle allows me to understand the Software Development Lifecycle and how communication with our team members and clients is essential. IT145 Foundation in Application Development and CS260 Data Structures and Algorithms was a great lesson on algorithms and data structure. Within these courses, I showcased my design approach and evaluation of computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. CS310 Collaboration and Team Project showed me the basics of collaboration and explained how working together is necessary for large projects.</p>
-
-        <div style="text-align: center;">
-            <img src="assets/img/ItemsActivity.png" width="300px" title="Items Activity Screenshot" />&nbsp;&nbsp;&nbsp;
-            <img src="assets/img/EditItem_AlertDialog.png" width="300px" title="Edit Item Alert Dialog Screenshot" />
-            <p><em>Figure 3 - Items Activity and Edit Alert Dialog Screenshot</em></p>
-        </div>
-
-        <h2 id="preparing-for-the-future">Preparing For The Future</h2>
-        <p>The Computer Science program has helped me grow as a professional, preparing me to build a fulfilling and productive career and make a solid contribution to a computer science practice. Like a mountain climber approaching the summit, it is time to draw on my sense of motivation and refocus my energies. I have developed an ePortfolio that helps me take my place among computer science professionals; this is a significant achievement I am proud of.</p>
-
-        <p>I contend that my ePortfolio demonstrated my abilities to use well-founded and innovative techniques. I implemented computer solutions that deliver value and accomplish industry-specific goals exemplified through the development of functionalities that involves CSV data files being imported into MongoDB, the import of dependencies such as Python PyMongo driver, Python libraries, Dash framework, and a Python source code, and CRUD module to manipulate the data imported into MongoDB.</p>
-
-        <p>I designed and evaluated computing solutions that solve given problems using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices through the engineering considerations of relationship and functionality between the different classes and methods by using arguments, parameters, and variables in scope in JAVA programming. All the enhanced artifacts demonstrate my emphasis on applying a security mindset during the development process to anticipate adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.</p>
-
-        <h2 id="codereview">Refinement Plan and Code Review</h2>
-        <p>As a software engineer, I know that code reviews are critical aspects of software development. Code reviews ensure quality assurance for our project's code and often identify critical bugs early on in its life cycle. However, the typical code review can be tedious with too many meetings and meetings that waste time. We can think that code reviews add an unnecessary bureaucracy to our development life cycle or believe we are too small to warrant the effort. In both instances, we are mistaken.</p>
-
-        <p>Code review is a systematic examination of the computer source code, sometimes known as peer review. I intend to find and fix mistakes overlooked in the initial development phase, improving the overall quality of the software and my developers' skills. In the professional world of programming, code reviews are a staple of quality assurance. A code review can be accomplished in various ways and with any requirements, but it is a straightforward concept stripped down to its bare essence. It is necessary for anyone interested in software engineering best practices.</p>
-
-        <div style="text-align: center;">
-            <img src="assets/img/IT145-JavaCode.png" width="720px" title="Zoo Monitor System Program Java Code Screenshot" />
-            <p><em>Figure 4 - Zoo Monitoring System Program Java Code Screenshot</em></p>
-        </div>
-
-        <h2 id="softwaredesign">Software Design and Engineering</h2>
-        <p>As showcased in the <a href="CodeReview" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the software design and engineering category is the <strong>mobile application Inventory App</strong>. The app's goal is to track an inventory of items using android mobile devices. The software was planned, designed, and developed as part of the CS360 Mobile Architecture and Programming computer science course. The application is developed in JAVA programming language with integration to the relational database SQLite. The development and programming tool used is Android Studio IDE. The testing and running of the app are through a Nexus device emulator inside Android Studio.</p>
-
-        <div style="text-align: center;">
-            <img src="assets/img/ItemsActivity.png" width="300px" title="Items Activity Screenshot" />&nbsp;&nbsp;&nbsp;
-            <img src="assets/img/EditItem_AlertDialog.png" width="300px" title="Edit Item Alert Dialog Screenshot" />
-            <p><em>Figure 5 - Items Activity and Edit Alert Dialog Screenshot</em></p>
-        </div>
-
-        <h2 id="algorithms">Algorithms and Data Structure</h2>
-        <p>As presented in the <a href="CodeReview" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the algorithms and data structure category is the <strong>Zoo Monitoring System Program</strong>. The program aims to develop an authentication system that manages authentication and authorization for zookeeper users and administrators. The program was planned, designed, and developed as part of the IT145 Foundation in Application Development computer science course. The program is produced in the JAVA programming language as a standalone application running in the computer terminal. The initial development and programming tool used was Apache NetBeans IDE; however, I worked on the enhancements using a text editor. The testing and running of the app are through the computer terminal.</p>
-
-        <div style="text-align: center;">
-            <img src="assets/img/IT145-UserManagement.jpg" width="480px" title="User Manager Table Screenshot" />
-            <p><em>Figure 6 - Zoo Monitoring System User Management Dashboard Screenshot</em></p>
-        </div>
-
-        <h2 id="databases">Databases</h2>
-        <p>As described in the <a href="CodeReview" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the databases category is the <strong>Salvare Search for Rescue Web App</strong>. The web application aims to develop a web interface that works with an existing database from animal shelters to identify and categorize available dogs to train for different rescues. The web app was planned, designed, and developed for the CS340 Client/Server Development computer science course. The application is developed in Python with the Dash framework and the non-relational database MongoDB. The integration of Python and MongoDB is through the python driver PyMongo. The application can run in Jupyter Notebook as a test tool and the computer terminal with an internet browser. The application's functionality involves a CSV data file of existing dogs in shelters to import into MongoDB, the import of dependencies such as Python PyMongo driver, Python libraries, Dash framework, and a Python source code and CRUD module to manipulate the data imported into MongoDB.</p>
-
-        <div style="text-align: center;">
-            <img src="assets/img/CS340-Image.jpg"
+        </section>
+        <section id="preparing-for-the-future">
+            <h2>Preparing For The Future</h2>
+            <p>The Computer Science program has helped me grow as a professional, preparing me to build a fulfilling and productive career and make a solid contribution to a computer science practice. Like a mountain climber approaching the summit, it is time to draw on my sense of motivation and refocus my energies. I have developed an ePortfolio that helps me take my place among computer science professionals; this is a significant achievement I am proud of.</p>
+        </section>
+        <section id="codereview">
+            <h2>Refinement Plan and Code Review</h2>
+            <p>As a software engineer, I know that code reviews are critical aspects of software development. Code reviews ensure quality assurance for our project's code and often identify critical bugs early on in its life cycle. However, the typical code review can be tedious with too many meetings and meetings that waste time. We can think that code reviews add an unnecessary bureaucracy to our development life cycle or believe we are too small to warrant the effort. In both instances, we are mistaken.</p>
+            <img class="img-center" src="assets/img/IT145-JavaCode.png" alt="Zoo Monitor System Program Java Code Screenshot" title="Zoo Monitor System Program Java Code Screenshot">
+            <p><em>Figure 3 - Zoo Monitoring System Program Java Code Screenshot</em></p>
+        </section>
+        <section id="softwaredesign">
+            <h2>Software Design and Engineering</h2>
+            <p>As showcased in the <a href="CodeReview" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the software design and engineering category is the <strong>mobile application Inventory App</strong>. The app's goal is to track an inventory of items using android mobile devices. The software was planned, designed, and developed as part of the CS360 Mobile Architecture and Programming computer science course. The application is developed in JAVA programming language with integration to the relational database SQLite. The development and programming tool used is Android Studio IDE. The testing and running of the app are through a Nexus device emulator inside Android Studio.</p>
+            <img class="img-center" src="assets/img/ItemsActivity.png" alt="Items Activity Screenshot" title="Items Activity Screenshot">
+            <img class="img-center" src="assets/img/EditItem_AlertDialog.png" alt="Edit Item Alert Dialog Screenshot" title="Edit Item Alert Dialog Screenshot">
+            <p><em>Figure 4 - Items Activity and Edit Alert Dialog Screenshot</em></p>
+        </section>
+        <section id="algorithms">
+            <h2>Algorithms and Data Structure</h2>
+            <p>As presented in the <a href="CodeReview" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the algorithms and data structure category is the <strong>Zoo Monitoring System Program</strong>. The program aims to develop an authentication system that manages authentication and authorization for zookeeper users and administrators. The program was planned, designed, and developed as part of the IT145 Foundation in Application Development computer science course. The program is produced in the JAVA programming language as a standalone application running in the computer terminal. The initial development and programming tool used was Apache NetBeans IDE; however, I worked on the enhancements using a text editor. The testing and running of the app are through the computer terminal.</p>
+            <img class="img-center" src="assets/img/IT145-UserManagement.jpg" alt="User Manager Table Screenshot" title="User Manager Table Screenshot">
+            <p><em>Figure 5 - Zoo Monitoring System User Management Dashboard Screenshot</em></p>
+        </section>
+        <section id="databases">
+            <h2>Databases</h2>
+            <p>As described in the <a href="CodeReview" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the databases category is the <strong>Salvare Search for Rescue Web App</strong>. The web application aims to develop a web interface that works with an existing database from animal shelters to identify and categorize available dogs to train for different rescues. The web app was planned, designed, and developed for the CS340 Client/Server Development computer science course. The application is developed in Python with the Dash framework and the non-relational database MongoDB. The integration of Python and MongoDB is through the python driver PyMongo. The application can run in Jupyter Notebook as a test tool and the computer terminal with an internet browser. The application's functionality involves a CSV data file of existing dogs in shelters to import into MongoDB, the import of dependencies such as Python PyMongo driver, Python libraries, Dash framework, and a Python source code and CRUD module to manipulate the data imported into MongoDB.</p>
+            <img class="img-center" src="assets/img/CS340-Image.jpg" alt="Web App Client/Database Screenshot" title="Web App Client/Database Screenshot">
+            <p><em>Figure 6 - Salvare Search Web App Client/Database Dashboard Screenshot</em></p>
+        </section>
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <blockquote cite="https://learn.snhu.edu/d2l/lms/grades/my_grades/main.d2l?ou=1014915">
+                <img src="assets/img/brookegoggin.jpg" alt="Brooke Goggin" style="width: 90px; float: left; margin-right: 10px;">
+                <p><span>Brooke Goggin, M.S., M.S., M.S., Ed.D(ABD)<br/>SNHU Computer Science Adjunct Faculty</span></p>
+                <em>"Being able to present your work in a cohesive manner is a skill that you will continue to refine in your career. The Zoo Monitoring with security and efficiency enhancements and interface as well as your extensive narratives is great work. This is a sound demonstration of making code more concise and therefore with this change a bit faster. Wonderful explanation of what you did with the application to integrate Python with the Dash framework. Code is clean and well commented! You made it. Congratulations and you should be proud. The hard skills and soft skills table is great. Very well done portfolio with clear content of your depth of understanding!"</em>
+            </blockquote>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scot C. Batton. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
 
 
