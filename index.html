@@ -106,6 +106,21 @@
             display: block;
             margin: 0 auto;
             max-width: 100%;
+            position: relative;
+        }
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .image-container {
+            position: relative;
+            text-align: center;
         }
     </style>
 </head>
@@ -216,9 +231,11 @@
             <p><em>Figure 5 - Zoo Monitoring System User Management Dashboard Screenshot</em></p>
         </section>
         <section id="databases">
-            <h2>Databases</h2>
+            <div class="image-container">
+                <img class="img-center" src="https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/493440/iHvXGoAsOdbGCuQh.jpg?Expires=1729561697&Signature=rU3-bKEhLNne5Co--pRVQ1lDdxy5ieh5blsfHoMccTn2TyUvC8iItefwoZJEzxbmQL-3CMrFuugrI9BYu-w~AckCpNrau~-OxsukzWCPosUOTiBm6rdcjgwqRI5HmRBoZUVfWIBqhTCsfTjGetj4S0iPdT1SwpTjhf48ZKWledF-K5-QKmPZ1-sSMzOqye~JgtGCzEMc31Th8h9GiHuS1LIgEdMP1G0dhr7klWXxnMjonUqqL0cdJ-3dnp5nYZoyk06E36A6rkouagEU~ES1S5OdycMY4ko6zT6-rnxsVDuVz9K60C7hf2AeXY4mYZUUHBcnusFQGQ39daM1Km-30Q__&Key-Pair-Id=K3USGZIKWMDCSX" alt="Database Image" title="Database Image">
+                <div class="text-overlay">Databases</div>
+            </div>
             <p>As described in the <a href="CodeReview" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the databases category is the <strong>Salvare Search for Rescue Web App</strong>. The web application aims to develop a web interface that works with an existing database from animal shelters to identify and categorize available dogs to train for different rescues. The web app was planned, designed, and developed for the CS340 Client/Server Development computer science course. The application is developed in Python with the Dash framework and the non-relational database MongoDB. The integration of Python and MongoDB is through the python driver PyMongo. The application can run in Jupyter Notebook as a test tool and the computer terminal with an internet browser. The application's functionality involves a CSV data file of existing dogs in shelters to import into MongoDB, the import of dependencies such as Python PyMongo driver, Python libraries, Dash framework, and a Python source code and CRUD module to manipulate the data imported into MongoDB.</p>
-            <img class="img-center" src="assets/img/CS340-Image.jpg" alt="Web App Client/Database Screenshot" title="Web App Client/Database Screenshot">
             <p><em>Figure 6 - Salvare Search Web App Client/Database Dashboard Screenshot</em></p>
         </section>
         <section id="reviews">
@@ -226,16 +243,7 @@
             <blockquote cite="https://learn.snhu.edu/d2l/lms/grades/my_grades/main.d2l?ou=1014915">
                 <img src="assets/img/brookegoggin.jpg" alt="Brooke Goggin" style="width: 90px; float: left; margin-right: 10px;">
                 <p><span>Brooke Goggin, M.S., M.S., M.S., Ed.D(ABD)<br/>SNHU Computer Science Adjunct Faculty</span></p>
-                <em>"Being able to present your work in a cohesive manner is a skill that you will continue to refine in your career. The Zoo Monitoring with security and efficiency enhancements and interface as well as your extensive narratives is great work. This is a sound demonstration of making code more concise and therefore with this change a bit faster. Wonderful explanation of what you did with the application to integrate Python with the Dash framework. Code is clean and well commented! You made it. Congratulations and you should be proud. The hard skills and soft skills table is great. Very well done portfolio with clear content of your depth of understanding!"</em>
-            </blockquote>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Scot C. Batton. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-
+                <em>"Being able to present your work in a cohesive manner is a skill that you will continue to refine in your career. The Zoo Monitoring with security and efficiency enhancements and interface as well as your extensive narratives is great work. This is a sound demonstration of making code more concise and therefore with this change a bit faster. Wonderful explanation of what you did with the application to integrate Python with the
 
 
 
