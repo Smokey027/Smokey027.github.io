@@ -11,9 +11,7 @@
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal webpage of Scot C. Batton, showcasing top programming languages and projects.">
-    <meta name="author" content="Scot C. Batton">
-    <meta name="keywords" content="ePortfolio, Computer Science, Programming, Software Engineering">
+    <meta name="description" content="Personal webpage of Scot, showcasing top programming languages and projects.">
     
     <!-- Title -->
     <title>Scot C. Batton's ePortfolio</title>
@@ -93,47 +91,42 @@
             margin-top: 10px;
             padding: 10px 20px;
             background-color: #24292e;
-            color: #fff;
-            text-decoration: none;
+            color: #ffffff;
             border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        blockquote {
+            font-size: 18px;
+            color: #555;
+            border-left: 5px solid #ccc;
+            margin: 20px 0;
+            padding-left: 15px;
         }
         .img-center {
             display: block;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
             max-width: 100%;
-            height: auto;
-        }
-        .skip-link {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background: #000;
-            color: white;
-            padding: 8px;
-            z-index: 100;
-        }
-        .skip-link:focus {
-            top: 0;
-        }
-        .image-container {
             position: relative;
-            display: inline-block;
+            transform: scaleY(0.75); 
         }
         .text-overlay {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.7);
             color: white;
-            padding: 10px;
-            font-size: 24px;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .image-container {
+            position: relative;
+            text-align: center;
         }
     </style>
-head>
+</head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header>
         <h1>Scot C. Batton</h1>
         <p>ePortfolio</p>
@@ -141,7 +134,7 @@ head>
         <a href="https://github.com/Smokey027/Smokey027.github.io" class="github-button" target="_blank" rel="noopener noreferrer">View Project on GitHub</a>
     </header>
     <nav>
-        <a href="#welcome" aria-current="page">Welcome</a>
+        <a href="#welcome">Welcome</a>
         <a href="#self-assessment">Professional Self-Assessment</a>
         <a href="#portfolio-considerations">Portfolio Considerations</a>
         <a href="#preparing-for-the-future">Preparing For The Future</a>
@@ -150,7 +143,7 @@ head>
         <a href="algorithms.html">Algorithms</a>
         <a href="databases.html">Databases</a>
     </nav>
-    <main id="main-content">
+    <main>
         <section id="welcome">
             <h2>Welcome</h2>
             <p>This ePortfolio integrates the knowledge and skills I gained and developed throughout the years of studying a Computer Science program at Southern New Hampshire University (SNHU). It represents my growth in the program and gained honor rolls from high-quality outcomes. The ePortfolio was designed and developed with a professional-quality written and a visual communication demonstrative of my capacities and abilities in a coherent, technically sound, and appropriately adapted to a specific technical audience and context.</p>
@@ -158,15 +151,14 @@ head>
         <section id="self-assessment">
             <h2>Professional Self-Assessment</h2>
             <p>I started in the Computer Science program in January of 2018, studying for as long as five years. I plan to join the program to improve my background in the programming and development of applications and web services. This effort was because of my passion for working with computers and technology, performing web development, and have led some IT projects and implementing IT infrastructures during my years of practicing Architecture.</p>
-            <img class="img-center" src="assets/img/CS330-Screenshot.png" alt="OpenGL ZigZag Chair Screenshot" title="OpenGL ZigZag Chair Screenshot" width="800" height="600" loading="lazy">
-            <p><em>Figure 1 - OpenGL ZigZag Chair - CS330 Computational Graphics and Visualization</em>p>
+            <img class="img-center" src="assets/img/CS330-Screenshot.png" alt="OpenGL ZigZag Chair Screenshot" title="OpenGL ZigZag Chair Screenshot">
+            <p><em>Figure 1 - OpenGL ZigZag Chair - CS330 Computational Graphics and Visualization</em></p>
             <p>While in the Computer Science Program, I have learned and improved an innumerable number of abilities, skills, and knowledge. I have improved my attention to detail and security mindset as crucial skills to perform as a software engineer and developer. Being organized and cautious in my code development and doing it in simple blocks and testing as part of my workflow helps me improve these skills and abilities. Testing is crucial to ensuring a program works and is free of weaknesses and vulnerabilities and becomes more complicated as a project grows in complexity. Acknowledging and adopting a tester mindset and a security mindset are well-required skills and abilities that improve continuously.</p>
             <table>
-                <caption>Skills Acquired</caption>
                 <thead>
                     <tr>
-                        <th scope="col">Hard Skills</th>
-                        <th scope="col">Soft Skills</th>
+                        <th>Hard Skills</th>
+                        <th>Soft Skills</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -211,10 +203,10 @@ head>
         </section>
         <section id="portfolio-considerations">
             <h2>Portfolio Considerations</h2>
-            <blockquote>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." <br><cite>- Martin Fowler</cite></blockquote>
+            <blockquote>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” <br><span style="float:right;">- Martin Fowler</span></blockquote>
             <p>Each of the courses throughout the Computer Science program has impacted and helped to acquire the knowledge, skills, and abilities necessary to position me in a job in the disciplines attached to Computer Science. While my learning was not limited to these classes, I felt that these were of more impact to me and expanded my roots into my initial plan of entering the Computer Science Program. From these courses, I learned and improved things I was not aware of being knowledgeable about or having the ability to grow in them. Because of that, I incorporate artifacts where the skills and skills learned in these courses, are demonstrated, showcased, and illustrated.</p>
-            <img class="img-center" src="assets/img/CS350-Task-Scheduler-Diagram.png" alt="Task Scheduler Diagram" title="Task Scheduler Diagram" width="800" height="600" loading="lazy">
-            <p><em>Figure 2 - Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</em>
+            <img class="img-center" src="assets/img/CS350-Task-Scheduler-Diagram.png" alt="Task Scheduler Diagram" title="Task Scheduler Diagram">
+            <p><em>Figure 2 - Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</em></p>
         </section>
         <section id="preparing-for-the-future">
             <h2>Preparing For The Future</h2>
@@ -223,34 +215,38 @@ head>
         <section id="codereview">
             <h2><a href="refinement-plan-and-code-review.html">Refinement Plan and Code Review</a></h2>
             <p>As a software engineer, I know that code reviews are critical aspects of software development. Code reviews ensure quality assurance for our project's code and often identify critical bugs early on in its life cycle. However, the typical code review can be tedious with too many meetings and meetings that waste time. We can think that code reviews add an unnecessary bureaucracy to our development life cycle or believe we are too small to warrant the effort. In both instances, we are mistaken.</p>
-            <img class="img-center" src="assets/img/IT145-JavaCode.png" alt="Zoo Monitor System Program Java Code Screenshot" title="Zoo Monitor System Program Java Code Screenshot" width="800" height="600" loading="lazy">
-            <p>Figure 3 - Zoo Monitoring System Program Java Code Screenshot</em></p>
-            <img class="img-center" src="Software-Engineering-la-gi.jpg" alt="Software Engineering Image" title="Software Engineering" width="800" height="600" loading="lazy">
+            <img class="img-center" src="assets/img/IT145-JavaCode.png" alt="Zoo Monitor System Program Java Code Screenshot" title="Zoo Monitor System Program Java Code Screenshot">
+            <p><em>Figure 3 - Zoo Monitoring System Program Java Code Screenshot</em></p>
+            <!-- New Image Added Below Figure 3 -->
+            <img class="img-center" src="Software-Engineering-la-gi.jpg" alt="Software Engineering Image" title="Software Engineering">
         </section>
         <section id="softwaredesign">
-            <h2><a href="software-design.html">Software Design and Engineering</a>>
+            <h2><a href="software-design.html">Software Design and Engineering</a></h2>
             <p>As showcased in the <a href="refinement-plan-and-code-review.html" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the software design and engineering category is the <strong>mobile application Inventory App</strong>. The app's goal is to track an inventory of items using android mobile devices. The software was planned, designed, and developed as part of the CS360 Mobile Architecture and Programming computer science course. The application is developed in JAVA programming language with integration to the relational database SQLite. The development and programming tool used is Android Studio IDE. The testing and running of the app are through a Nexus device emulator inside Android Studio.</p>
-            <img class="img-center" src="assets/img/ItemsActivity.png" alt="Items Activity Screenshot" title="Items Activity Screenshot" width="400" height="800" loading="lazy">
-            <img class="img-center" src="assets/img/EditItem_AlertDialog.png" alt="Edit Item Alert Dialog Screenshot" title="Edit Item Alert Dialog Screenshot" width="400" height="800" loading="lazy">
-            <p><em>Figure 4 - Items Activity and Edit Alert Dialog Screenshot</em>p>
+            <img class="img-center" src="assets/img/ItemsActivity.png" alt="Items Activity Screenshot" title="Items Activity Screenshot">
+            <img class="img-center" src="assets/img/EditItem_AlertDialog.png" alt="Edit Item Alert Dialog Screenshot" title="Edit Item Alert Dialog Screenshot">
+            <p><em>Figure 4 - Items Activity and Edit Alert Dialog Screenshot</em></p>
             <div class="image-container">
-                <img class="img-center" src="https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/493440/GlmHOVQEHrIzwhlm.jpg?Expires=1729562274&Signature=J84Q6X3PBsfFO3T5~bMSl0-dH14YCeSCgBM9Z4NKdTiudALy82TnOmruDksxJGzoYc7QE6IdgN3HXhl576pMx7kUkd-9EfRwRpiCDL-yPYM8x~ANOJ1l0TeIvQUmTAj29rLzfUHKrhVjAKTIbigfI3o5jo02zVkVks~7nng8ccCPh8Ul6SH4A26RV4STUaom5jLMtvWOrNFve-HxStCoa9fRNV3-8l~i9jTI0zplhwNkeqOoX2KUQd~7Jl0onwNM6elS6JwJh3MFvQhzpdfh~gN9YkNNn8J8DwcBU0iFPJhSTQnE85HOGnRUvKhjvyQSjBo5SIeVelLi9xIW5J8S~Q__&Key-Pair-Id=K3USGZIKWMDCSX" alt="Data Structures and Algorithms Image" title="Data Structures and Algorithms" width="800" height="600" loading="lazy">
+                <img class="img-center" src="https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/493440/GlmHOVQEHrIzwhlm.jpg?Expires=1729562274&Signature=J84Q6X3PBsfFO3T5~bMSl0-dH14YCeSCgBM9Z4NKdTiudALy82TnOmruDksxJGzoYc7QE6IdgN3HXhl576pMx7kUkd-9EfRwRpiCDL-yPYM8x~ANOJ1l0TeIvQUmTAj29rLzfUHKrhVjAKTIbigfI3o5jo02zVkVks~7nng8ccCPh8Ul6SH4A26RV4STUaom5jLMtvWOrNFve-HxStCoa9fRNV3-8l~i9jTI0zplhwNkeqOoX2KUQd~7Jl0onwNM6elS6JwJh3MFvQhzpdfh~gN9YkNNn8J8DwcBU0iFPJhSTQnE85HOGnRUvKhjvyQSjBo5SIeVelLi9xIW5J8S~Q__&Key-Pair-Id=K3USGZIKWMDCSX" alt="Data Structures and Algorithms Image" title="Data Structures and Algorithms">
             </div>
         </section>
         <section id="algorithms">
-            <h2><a href="algorithms.html">Algorithms and Data Structure</a>>
-            <p>As presented in the <a href="refinement-plan-and-code-review.html" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the algorithms and data structure category is the <strong>Zoo Monitoring System Program</strong>. The program aims to develop an authentication system that manages authentication and authorization for zookeeper users and administrators. The program was planned, designed, and developed as part of the IT145 Foundation in Application Development computer science course. The program is produced in the JAVA programming language as a standalone application running in the computer terminal. The initial development and programming tool used was Eclipse IDE.</p>
+            <h2><a href="algorithms.html">Algorithms and Data Structure</a></h2>
+            <p>As presented in the <a href="refinement-plan-and-code-review.html" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the algorithms and data structure category is the <strong>Zoo Monitoring System Program</strong>. The program aims to develop an authentication system that manages authentication and authorization for zookeeper users and administrators. The program was planned, designed, and developed as part of the IT145 Foundation in Application Development computer science course. The program is produced in the JAVA programming language as a standalone application running in the computer terminal. The initial development and programming tool used was Apache NetBeans IDE; however, I worked on the enhancements using a text editor. The testing and running of the app are through the computer terminal.</p>
+            <p><em>Figure 5 - Zoo Monitoring System User Management Dashboard Screenshot</em></p>
         </section>
-            <section id="databases">
-            <h2><a href="databases.html">Databases</a>h2>
-            <p>As demonstrated in the <a href="refinement-plan-and-code-review.html" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the databases category is the <strong>mobile application Inventory App</strong>. The app's goal is to track an inventory of items using android mobile devices. The software was planned, designed, and developed as part of the CS360 Mobile Architecture and Programming computer science course. The application is developed in JAVA programming language with integration to the relational database SQLite. The development and programming tool used is Android Studio IDE. The testing and running of the app are through a Nexus device emulator inside Android Studio.</p>
+        <section id="databases">
+            <div class="image-container">
+                <img class="img-center" src="https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/493440/iHvXGoAsOdbGCuQh.jpg?Expires=1729561697&Signature=rU3-bKEhLNne5Co--pRVQ1lDdxy5ieh5blsfHoMccTn2TyUvC8iItefwoZJEzxbmQL-3CMrFuugrI9BYu-w~AckCpNrau~-OxsukzWCPosUOTiBm6rdcjgwqRI5HmRBoZUVfWIBqhTCsfTjGetj4S0iPdT1SwpTjhf48ZKWledF-K5-QKmPZ1-sSMzOqye~JgtGCzEMc31Th8h9GiHuS1LIgEdMP1G0dhr7klWXxnMjonUqqL0cdJ-3dnp5nYZoyk06E36A6rkouagEU~ES1S5OdycMY4ko6zT6-rnxsVDuVz9K60C7hf2AeXY4mYZUUHBcnusFQGQ39daM1Km-30Q__&Key-Pair-Id=K3USGZIKWMDCSX" alt="Database Image" title="Database Image">
+                <div class="text-overlay">Databases</div>
+            </div>
+            <h2><a href="databases.html">Databases</a></h2>
+            <p>As described in the <a href="refinement-plan-and-code-review.html" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the databases category is the <strong>Salvare Search for Rescue Web App</strong>. The web application aims to develop a web interface</p>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2023 Scot C. Batton. All rights reserved.</p>
-        <p>Last updated: May 2023</p>
+        <p>&copy; 2024 Scot C. Batton. All rights reserved.</p>
     </footer>
 </body>
-html>
+</html>
 
