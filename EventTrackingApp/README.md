@@ -3,8 +3,9 @@
 # Scot C. Batton
 # September 30, 2024
 
-# Event Tracking Application Initial Code Review
-[Watch this video on YouTube](https://www.youtube.com/watch?v=https://youtu.be/6eo0bEmdYWc)
+# Event Tracking Application Initial Code Review [Watch the Video on YouTube](https://youtu.be/6eo0bEmdYWc)
+
+
 
 
 The capstone project in my computer science degree is designed to showcase the skills learned throughout the degree and how effective I can be with my skills. The code review that follows is based on an Event Tracking Application that I created during CS-360, Mobile Architecture and Design. The code review will analyze software engineering and design, algorithms and data structures, and databases in the artifact that I am presenting. I will analyze the code for weakness, limitations, and vulnerabilities using the code review checklist provided in this class. I will then provide my enhancement plan for each of the three categories and provide examples of how the course outcomes apply to the current code and the changes I will present.
