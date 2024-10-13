@@ -80,12 +80,26 @@
         a:hover {
             text-decoration: underline;
         }
+        .image-container {
+            position: relative;
+            text-align: center;
+        }
         .img-center {
             display: block;
             margin: 0 auto;
             max-width: 100%;
             position: relative;
             transform: scaleY(0.75);
+        }
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
          .github-button {
             display: inline-block;
@@ -117,14 +131,15 @@
         <a href="databases.html">Databases</a>
     </nav>
     <main>
-        <section id="databases">
-            <h2><a href="databases.html">Databases</a></h2>
-             <div class="image-container">
-                <img class="img-center" src="database.jpg" alt="Database Image" title="Database Image">
-                <div class="text-overlay">Databases</div>
-            </div>
-            <p>As described in the <a href="refinement-plan-and-code-review.html" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the databases category is the <strong>Salvare Search for Rescue Web App</strong>. The web application aims to develop a web interface</p>
-        </section>
+<section id="databases">
+    <h2><a href="databases.html">Databases</a></h2>
+    <div class="image-container">
+        <img class="img-center" src="database.jpg" alt="Database Image" title="Database Image">
+        <div class="text-overlay">Databases</div>
+    </div>
+    <p>As described in the <a href="refinement-plan-and-code-review.html" title="Refinement Plan and Code Review">artifact code review</a>, the artifact selected for the databases category is the <strong>Salvare Search for Rescue Web App</strong>. The web application aims to develop a web interface</p>
+</section>
+
     </main>
     <footer>
         <p>&copy; 2024 Scot C. Batton. All rights reserved.</p>
